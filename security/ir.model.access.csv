@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ticket_scheduling_user,ticket_scheduling_user,model_ticket_scheduling,base.group_user,1,1,1,1
+access_ticket_scheduling_manager,ticket_scheduling_manager,model_ticket_scheduling,base.group_erp_manager,1,1,1,1
+
+access_ticket_scheduling_service_user,ticket_scheduling_service_user,model_ticket_scheduling_service,base.group_user,1,1,1,1
+access_ticket_scheduling_service_manager,ticket_scheduling_service_manager,model_ticket_scheduling_service,base.group_erp_manager,1,1,1,1
+
+access_scheduled_ticket_user,scheduled_ticket_user,model_scheduled_ticket,base.group_user,1,1,1,1
+access_scheduled_ticket_manager,scheduled_ticket_manager,model_scheduled_ticket,base.group_erp_manager,1,1,1,1
