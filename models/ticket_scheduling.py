@@ -7,7 +7,7 @@ class TicketScheduling(models.Model):
 
     name = fields.Char("Name")
     description = fields.Char("Description")
-    service_ids = fields.one2Many('ticket.scheduling.service', 'ticket_id', 'Service')
+    service_ids = fields.One2many('ticket.scheduling.service', 'ticket_id', 'Service')
     tag_ids = fields.Many2many("crm.tags", 'Tags')
     email = fields.Char("Email")
     company_id = fields.Many2one("res.partner", 'Company')

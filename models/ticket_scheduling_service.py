@@ -8,5 +8,5 @@ class TicketSchedulingService(models.Model):
     description = fields.Char("Description")
     ticket_id = fields.Many2one("ticket.scheduling", "Ticket")
     is_published = fields.Boolean("Service Published")
-    scheduled_tickets_ids = fields.One2many("scheduled.ticket", 'Scheduled Tickets')
+    scheduled_tickets_ids = fields.One2many("scheduled.ticket", 'service_id', 'Scheduled Tickets')
     sequence = fields.Integer("Sequence")

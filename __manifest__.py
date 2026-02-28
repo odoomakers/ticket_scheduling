@@ -1,5 +1,5 @@
 {
-    "name": "Plataforma de Agendamento para Bancos e Microfinanças",
+    "name": "Sistema Inteligente de Filas e Agendamento Bancário",
     "version": "1.0.0",
     "odoo_version": "18.0.0",
     "summary": "Agendamento online de atendimento",

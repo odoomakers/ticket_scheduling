@@ -13,3 +13,4 @@ class ScheduledTicket(models.Model):
     ])
     start_datetime = fields.Datetime('Start Time')
     end_datetime = fields.Datetime("End Time")
+    service_id = fields.Many2one("ticket.scheduling.service", 'Service')
