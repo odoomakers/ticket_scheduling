@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="ticket_scheduling_view_form" model="ir.ui.view">
+            <field name="name">Ticket Scheduling Form</field>
+            <field name="model">ticket.scheduling</field>
+            <field name="type" arch="xml">
+                <sheet>
+                    <form>
+
+                    </form>
+                </sheet>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>
